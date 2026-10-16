@@ -17,7 +17,7 @@ export const GOOGLE_ADS_OAUTH_SCOPE = [
   "https://www.googleapis.com/auth/datamanager",
 ].join(" ");
 
-export const GOOGLE_ADS_API_VERSION = "v22";
+export const GOOGLE_ADS_API_VERSION = "v25";
 
 export const GOOGLE_ADS_ALLOWED_WORKSPACE_IDS = new Set<string>([
   DUB_WORKSPACE_ID,
